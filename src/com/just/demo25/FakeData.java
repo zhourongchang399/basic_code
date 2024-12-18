@@ -55,13 +55,13 @@ public class FakeData {
         for (int i = 0; i < boyCount; i++) {
             Collections.shuffle(surnames);
             Collections.shuffle(boys);
-            results.add(surnames.get(0) + boys.get(0) + "-" + random.nextInt(101) + "-" + "男");
+            results.add(surnames.get(0) + boys.get(0) + "-" + random.nextInt(101) + "-" + "男" + "-" + "1");
         }
 
         for (int i = 0; i < boyCount; i++) {
             Collections.shuffle(surnames);
             Collections.shuffle(girls);
-            results.add(surnames.get(0) + girls.get(0) + "-" + random.nextInt(101) + "-" + "女");
+            results.add(surnames.get(0) + girls.get(0) + "-" + random.nextInt(101) + "-" + "女" + "-" + "1");
         }
 
         Collections.shuffle(results);
